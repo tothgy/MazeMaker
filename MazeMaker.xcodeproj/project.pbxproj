@@ -83,7 +83,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17AE0D881E9A5A7D00173E34 /* Maze Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maze Playground.playground"; sourceTree = "<group>"; };
+		17AE0D881E9A5A7D00173E34 /* Maze Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maze Playground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		1C533C2D1C55A28D003F4342 /* GeometryGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryGenerator.swift; sourceTree = "<group>"; };
 		1C533C2F1C55A33F003F4342 /* OrthoLinewiseGeometryGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrthoLinewiseGeometryGenerator.swift; sourceTree = "<group>"; };
 		1C533C311C55B6A1003F4342 /* OrthoWallwiseGeometryGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrthoWallwiseGeometryGenerator.swift; sourceTree = "<group>"; };
@@ -95,7 +95,6 @@
 		1C6F2D1F1C6FEC5900F9C7A4 /* Distances.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distances.swift; sourceTree = "<group>"; };
 		1C6F2D211C6FF22200F9C7A4 /* BinaryHeap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
 		1C8DB0EC1C4D5EA300509419 /* Algorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
-		1C8DB0EE1C4D93DC00509419 /* Maze Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maze Playground.playground"; sourceTree = SOURCE_ROOT; };
 		1C98921F1C4DD3AC009D2310 /* AldousBroder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AldousBroder.swift; sourceTree = "<group>"; };
 		1CAA32041C53EEB5007507E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1CCBF0991C509C100052E1A0 /* RecursiveBacktracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecursiveBacktracker.swift; sourceTree = "<group>"; };
@@ -206,9 +205,8 @@
 		1CF119291C4C74C800287CAC = {
 			isa = PBXGroup;
 			children = (
-				17AE0D881E9A5A7D00173E34 /* Maze Playground.playground */,
 				1CAA32041C53EEB5007507E1 /* README.md */,
-				1C8DB0EE1C4D93DC00509419 /* Maze Playground.playground */,
+				17AE0D881E9A5A7D00173E34 /* Maze Playground.playground */,
 				1CF119351C4C74C800287CAC /* MazeMaker */,
 				1CF119411C4C74C800287CAC /* MazeMakerTests */,
 				4D1C358520F77FFD00279339 /* MazeMaker macOS */,
