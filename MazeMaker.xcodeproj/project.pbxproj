@@ -126,6 +126,9 @@
 		4D1C358C20F77FFD00279339 /* MazeMaker macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MazeMaker macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1C359120F77FFE00279339 /* MazeMaker_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeMaker_macOSTests.swift; sourceTree = "<group>"; };
 		4D1C359320F77FFE00279339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1C35AB20F7A15100279339 /* OrthoWallwiseGeometryGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrthoWallwiseGeometryGenerator.swift; path = "MazeMaker macOS/OrthoWallwiseGeometryGenerator.swift"; sourceTree = SOURCE_ROOT; };
+		4D1C35FC20F7AC4D00279339 /* OrthoLinewiseGeometryGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrthoLinewiseGeometryGenerator.swift; path = "MazeMaker macOS/OrthoLinewiseGeometryGenerator.swift"; sourceTree = SOURCE_ROOT; };
+		4D1C35FE20F7AE2D00279339 /* PolarWallwiseGeometryGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PolarWallwiseGeometryGenerator.swift; path = "MazeMaker macOS/PolarWallwiseGeometryGenerator.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +271,7 @@
 		4D1C358520F77FFD00279339 /* MazeMaker macOS */ = {
 			isa = PBXGroup;
 			children = (
+				4D1C35AD20F7A19000279339 /* Geometry */,
 				4D1C358620F77FFD00279339 /* MazeMaker_macOS.h */,
 				4D1C358720F77FFD00279339 /* Info.plist */,
 			);
@@ -281,6 +285,16 @@
 				4D1C359320F77FFE00279339 /* Info.plist */,
 			);
 			path = "MazeMaker macOSTests";
+			sourceTree = "<group>";
+		};
+		4D1C35AD20F7A19000279339 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				4D1C35FC20F7AC4D00279339 /* OrthoLinewiseGeometryGenerator.swift */,
+				4D1C35AB20F7A15100279339 /* OrthoWallwiseGeometryGenerator.swift */,
+				4D1C35FE20F7AE2D00279339 /* PolarWallwiseGeometryGenerator.swift */,
+			);
+			name = Geometry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -507,6 +521,7 @@
 			files = (
 				4D1C359F20F7821E00279339 /* OrthogonalCell.swift in Sources */,
 				4D1C35A120F7822300279339 /* OrthogonalLayout.swift in Sources */,
+				4D1C35FD20F7AC4D00279339 /* OrthoLinewiseGeometryGenerator.swift in Sources */,
 				4D1C359C20F7821300279339 /* GridLocation.swift in Sources */,
 				4D1C35A220F7822600279339 /* Grid.swift in Sources */,
 				4D1C35A420F7822B00279339 /* BinaryHeap.swift in Sources */,
@@ -517,6 +532,7 @@
 				4D1C360120F7C7B600279339 /* Algorithm.swift in Sources */,
 				4D1C35A920F782CA00279339 /* Array.swift in Sources */,
 				4D1C35A720F7823200279339 /* PolarLayout.swift in Sources */,
+				4D1C35AC20F7A15100279339 /* OrthoWallwiseGeometryGenerator.swift in Sources */,
 				4D1C35A520F7822E00279339 /* PriorityQueue.swift in Sources */,
 				4D1C359B20F7820F00279339 /* Location.swift in Sources */,
 				4D1C35A620F7823000279339 /* PolarCell.swift in Sources */,
